@@ -442,7 +442,7 @@ async def start(m: Message):
     SESS[m.from_user.id] = {"ids": set(), "target_date": None, "awaiting": None}
 
     await m.answer(
-        "✅ Bot Cek New Member siap (OMTOGEL)\n\n"
+        "✅ Bot Cek New Member siap ketua\n\n"
         "Perintah:\n"
         "/ceknew = mulai (upload file ID dulu)\n"
         "/tanggal YYYY-MM-DD = set tanggal (opsional)\n"
